@@ -1,0 +1,28 @@
+.breathcumb-section{
+    background-image: url('../../assets/header-bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+.breathcumb-details {
+    padding: 0px 50px;
+}
+.breathcumb-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #ffffffba;
+    z-index: -1;
+    width: 40%;
+    clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
+    width: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+    .breathcumb-overlay {
+        clip-path: polygon(0 0, 60% 0, 100% 100%, 0% 100%);
+        width: 100%;
+    }
+  }

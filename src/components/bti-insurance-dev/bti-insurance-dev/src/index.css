@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+body{
+  background: #f3f4f6;
+}
+.bg-gradient{
+  background: linear-gradient(158deg, rgba(1, 200, 248, 0.8407738095238095) 25%, rgba(1, 102, 195, 0.8099614845938375) 75%) !important;
+}
+.bti-main-menus{
+  position: relative;
+}
+.bti-main-nav{
+  position: absolute;
+  bottom: -95px;
+  margin: auto;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  z-index: 9999;
+}
+.home-top-slider {
+  position: relative;
+}
+.home-top-slider-slide {
+  position: relative;
+  background: #fff;
+  width: 100%;
+  height: 700px;
+}
+.slide-overlay-content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #16253dd9;
+  height: 100%;
+  width: 70%;
+  clip-path: polygon(0 0, 87% 0, 100% 100%, 0% 100%);
+}
+.slide-content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

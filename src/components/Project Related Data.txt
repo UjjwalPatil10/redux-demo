@@ -1,0 +1,17 @@
+mongodb+srv://trupti:Trupti!123@cluster0.td4wijz.mongodb.net/?retryWrites=true&w=majority
+
+{
+  "name":{
+    "first":"Topper",
+    "last":"Skills"
+  },
+  "mobile":"8976790841",
+  "email":"trupti90patil@gmail.com",
+  "password":"abc123",
+  "gender":"female",
+  "status":1,
+  "role":"admin"
+}
+
+
+http://localhost:2022/api/v1/users
